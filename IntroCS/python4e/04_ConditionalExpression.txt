@@ -1,0 +1,50 @@
+Condtional Statement
+    --> if Statement
+        --> a keyword que usamos em Phyton é a if state
+
+        if x < 10 :
+            print('smaller')
+        -->se a condição for verdadeira a linha é executada~
+        
+    Comparison Operators
+        < less than
+        <= less than or equal to
+        == equal to
+        >= greater than or equal to
+        > greater than
+        != not equal
+
+        if x <= 10 :
+        print('smaller')
+        
+        if x == 10 :
+        print('smaller')
+
+A indentação é muito importante em Phyton, onde terminara a indentação, termina o if Statement:
+
+    x = 5
+    if x > 2 :
+        print('Bigger than 2')
+        print('Still bigger')  --> o if Statement termina aqui (não inclui a linha abaixo), pq a seguir à uma diminuição na indentação.
+    print('Done with 2')
+
+     for i in range(5) :
+        print(i)
+        if i > 2 : 
+            print('Bigger than 2')--> o if Statement termina aqui
+        print('Done with i', i)
+    print('All Done') --> o for Statement termina aqui
+
+
+Podemos por um if dentro de um if 
+x = 42
+if x > 1 :
+    print('More than one')
+    if x < 100 : 
+        print('Less than 100') 
+print('All done')
+
+
+
+Two Way Decisions
+

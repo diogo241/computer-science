@@ -1,0 +1,25 @@
+WHY PROGRAM
+    --> Phyton Language
+
+        Reserved Words  
+            --> espera-se que aute com o significado literal das palavras.
+        
+        Program Steps
+            --> Sequence
+            --> Conditional
+            --> Repeated
+
+            Sequential Steps
+                --> x = 2
+                    --> print(x)
+                    --> x = x + 2
+                    --> print(x)
+            
+            Conditional Steps
+                --> usamos a reserved word if
+                --> se acontecer isto, segue, se não "run this code"
+            
+            Repeated Steps
+                --> acontece uma coisa, até atingir um objetivo e sair do ciclo
+                -->while ---> coloca a condição, o loop. Até a expressão não ser verdadeira
+                

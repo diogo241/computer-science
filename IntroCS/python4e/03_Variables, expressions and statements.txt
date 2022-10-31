@@ -1,0 +1,80 @@
+Constants
+    -->coisas que não mudam
+    -->strings, números
+    -->valores fixos
+
+Variables
+    -->podemos escolher o nome das variávies
+    -->armazena na tua memória esta variável
+    --> x = 12.2
+        --> regras: escrever as variávies em minúscula
+        --> são case sensitive em Phyton
+            --> spam  eggs 
+            --> não usar SPAM spam
+
+
+Expressions
+    --> Operators
+        --> são normalmente os que há em matemática
+        -->** - elevado a
+        -->%  - é o resto da divisão
+    
+            -->Order of Evaluation
+                --> utilizamos os parenteses para respeitar a ordem dos cálculos
+                --> Por ordem de perioridade:
+                    -() 
+                    -**
+                    -* e /
+                    -+ e -
+                    -quando tem o mesmo nível fazemos primeiro da conta da esquerda para a direita
+
+Type
+    --> type são diferentes tipos de dados
+    --> integer (inteiro)
+    --> string (texto)
+    --> Phyton funciona bem com inteiros e strings
+        
+        --> função type 
+            --> type(variável que queremos saber o tipo)
+            -->type(1)
+            -->type(temp)
+
+    Types of Numbers
+        -->integers
+        -->floating point
+    
+    Type Conversions
+        -->converter uma variável
+    
+    Integer Division
+        -->a divisão de números inteiros em Phyton produz sempre um float
+    
+    String Conversions
+        -->sval = '123'
+        -->type(sval)
+        <class 'str'>
+        -->ival = int(sval)  ---aqui estamos a converter a string num número
+
+    User Input
+        -->input()
+        -->é uma built in function
+        -->passamos para ela uma prompt (string)
+        nam = input('Who are you? ')
+        print('Welcome' , nam)
+
+    Converting User Input
+        -->inp = input('Europe floor? ')
+        -->usf = int(inp) + 1   --->temos de converter a string num número
+        print('US floor' , usf)
+
+    Comentários em Phyton
+        --> os comentários começam com #
+        
+    
+
+
+
+
+
+
+
